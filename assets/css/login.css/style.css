@@ -1,0 +1,131 @@
+/* This is the css for login page to sign up */
+body {
+    margin:0px;
+    background-color:#f6f8fa ;
+}
+.form1 {
+   
+    display: block;
+    /* /* justify-content:center;  */
+    /* font-weight: bold; */
+    /* margin-left: 500px; */
+    border-radius: 10px;
+  
+    /* width: 800px;
+    height: 500px;
+    padding: 50px; */
+    color: black;
+    background-color: white;
+    /* margin-top: 80px; */
+    /* box-shadow: 2px 2px 20px rgb(212, 210, 210); */
+}
+.form1{
+    
+    height:600px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+
+
+.form1 input{
+    /* width: 100%; */
+    border-radius:5px;
+    height:30px;
+    border:2px solid #9c9d9f;
+    
+} 
+.form {
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+     width: 1200px;
+    height: 750px;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 20px #f6f8fa;
+    border: none;
+    border: 0px solid black;
+    margin-left: 200px;
+    margin-top:50px;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login-img{
+     position:relative;
+}
+.login-img img {
+   
+    margin-right: 60px;
+    margin-top: 60px;
+    width:600px;
+    height:550px;
+    border-radius:10px;
+}
+#imgin{
+    font-size:35px;
+    width:499px;
+    height:120px;
+    padding:50px;
+    position:absolute;
+    top: 200px;
+    color:white;
+    border:2px solid white;
+    background: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    backdrop-filter: blur(10px);
+
+} 
+/* #imgin.background {
+   filter:blur(100px);
+} */
+
+a{
+    /* width:30px; */
+   color:black;
+   background-color:white;
+   padding:10px;
+   padding-left:40px;
+   padding-right:40px;
+   border-radius: 10px;
+   text-decoration: none;
+   color: black;
+   border:1px solid grey;
+  
+}
+.a{
+    margin:30px 0px 0px 20px ;
+    margin-top:50px;
+   
+}
+#blur {
+    color:#c7c8ca;
+}
+@media only screen and (max-width:900px){
+main {
+    width:400px;
+}
+.login-img img {
+    width:500px;
+    height:1050px;
+    margin-right:150px;
+} 
+.form {
+    margin-top:150px;
+    margin-left: 0px;
+    height:1200px;
+}
+.form1 {
+    font-size:35px;
+}
+.a  {
+   margin-left:0px;
+}
+#imgin {
+    top:300px;
+    height:350px;
+    font-size:60px;
+    width:399px;
+}
+}
