@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../assets/css/login.css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- This is the header section  -->
+
+    <main>
+        <!-- Here i am giving the login page -->
+        <div class="form">
+            <div class="form1">
+                <h1>Sign Up</h1>
+                <p id="blur">How will i started?</p>
+                <p>First name :</p> <input type="text" placeholder="enter your first name"  id="first"><br>
+                <p> Last name:</p> <input type="text"  id="last"><br>
+                <p>Email:</p> <input type="text"><br>
+                <p>Password:</p><input type="text"><br>
+                <p>Phone.no:</p><input type="text"  id="mailid" placeholder="enter your emailid "><br>
+                <div class="a">
+                    <button type="button" onclick="submit()">Submit</button>
+                </div>
+            </div>
+            <div class="login-img">
+                <img src="../assets/image/austin-pacheco-HQvMTkiNhpk-unsplash.jpg">
+                <p id="imgin" >Start your passion here with us and work together</p>
+            </div>
+ 
+        </div>
+
+    </main>
+    <script>
+
+function submit() {
+    const mailid=document.getElementById("mailid").value
+    const first = document.getElementById("first").value
+    const last= document.getElementById("last").value
+    console.log (mailid)
+    console.log (first)
+    window.location.href="lessons.html"
+    localStorage.setItem("email-email",mailid)
+    localStorage.setItem("pass",first)
+    
+}
+    </script>
+</body>
+
+</html>
